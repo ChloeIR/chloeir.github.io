@@ -1,0 +1,152 @@
+body {
+    font-family: "Varela Round", Arial, sans-serif;
+    margin: 0px;
+    font-size: 1.75vw;
+}
+
+#logo {
+    margin: 0px;
+    padding: 8px;
+    text-align: center;
+    font-family: "Pacifico", cursive, Verdana, 'Lucida Sans';
+    font-size: 5vh;
+    text-shadow: 
+    5px 5px 0px rgb(130, 2, 210),
+    -5px -5px 0px rgb(162, 2, 210)
+    ;
+}
+
+.navbutton {
+    color: white;
+    text-decoration: none;
+    padding: 2px;
+    border: 1px solid white;
+    border-width: 2px;
+    border-radius: 10%;
+}
+
+#Home {
+    background-color:rgb(130, 2, 210)
+}
+
+#About_Us {
+    background-color:rgb(162, 2, 210);
+}
+
+#Contact_Us {
+    background-color:rgb(188, 135, 0);
+}
+
+ul {
+    margin: 0px
+}
+
+.Filter {
+    color: black;
+    list-style: none;
+    text-decoration: none;
+    text-align: left;
+}
+
+aside > section > nav > ul > li > a {
+    color: black;
+    text-decoration: none;
+}
+
+.countdown {
+    width: 70%;
+    font-size: 4vw;
+    text-align: left;
+    color:rgb(130, 2, 210);
+    font-family: "Pacifico", cursive, Verdana;
+}
+
+h2 {
+    font-family: "Pacifico", cursive, Verdana;
+    color:rgb(130, 2, 210);
+}
+
+h3 {
+    color:rgb(162, 2, 210)
+}
+
+h4 {
+    color:rgb(162, 2, 210)
+}
+
+body > main article {
+    width: 70%;
+    background-color: white;
+}
+
+#main-content {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+}
+
+#main-content > div {
+    width: 70%;
+}
+
+body > main > h2 {
+    text-align: center;
+}
+
+form {
+    text-align: center;
+}
+
+body > header {
+    background-color: rgb(24, 24, 24);
+    color: white;
+    display: flex;
+    height: 17vh;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+/* this is only targeting the header that is a direct descendant of the body tag */
+
+body > header > nav > ul {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+}
+
+#nav-ul > li {
+    padding: 8px;
+    margin: 8px;
+}
+
+body > header > nav > ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+body > footer {
+    background-color: black;
+    display: flex;
+    color: white;
+    padding-top: 10px;
+    text-align: center;
+    justify-content: center;
+}
+
+#footer-ul {
+    display: flex;
+    list-style: none;
+}
+
+#footer-ul > div > li {
+    margin-left: 12px;
+}
+
+#footer-ul > div > li > a {
+    color: white;
+    text-decoration: none;
+}
+
+img {
+    border-radius: 5%;
+}
